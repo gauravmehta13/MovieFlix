@@ -17,8 +17,8 @@ class TopRatedListItem extends StatelessWidget {
           Navigator.of(context).pushNamed(
             MovieDetailsScreen.routeName,
             arguments: {
-              'movie': movieList[index].movie,
-              'trailer': movieList[index].trailer,
+              'movie': topRatedMovieList[index].movie,
+              'trailer': topRatedMovieList[index].trailer,
               'id': topRatedMovieList[index].id,
               'title': topRatedMovieList[index].title,
               'imageUrl': topRatedMovieList[index].imageUrl,

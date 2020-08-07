@@ -12,7 +12,7 @@ class DashboardScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Movies App'),
+        title: Text('MovieFlix'),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.error),

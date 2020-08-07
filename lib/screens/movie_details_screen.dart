@@ -173,10 +173,14 @@ class MovieDetailsScreen extends StatelessWidget {
               color: Theme.of(context).primaryColor,
               textColor: Colors.white,
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Icon(
                     Icons.play_circle_outline,
+                  ),
+                  Container(
+                    height: 5,
+                    width: 5,
                   ),
                   Text(
                     'Watch Trailer',
@@ -201,14 +205,14 @@ class MovieDetailsScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Icon(
-                    Icons.check_circle_outline,
+                    Icons.video_library,
                   ),
                   Container(
                     height: 5,
                     width: 5,
                   ),
                   Text(
-                    'Movie',
+                    'Watch Movie',
                     style: TextStyle(
                       fontSize: 18,
                     ),

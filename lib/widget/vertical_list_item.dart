@@ -16,8 +16,8 @@ class VerticalListItem extends StatelessWidget {
             Navigator.of(context).pushNamed(
               MovieDetailsScreen.routeName,
               arguments: {
-                'movie': movieList[index].movie,
-                'trailer': movieList[index].trailer,
+                'movie': bestMovieList[index].movie,
+                'trailer': bestMovieList[index].trailer,
                 'id': bestMovieList[index].id,
                 'title': bestMovieList[index].title,
                 'imageUrl': bestMovieList[index].imageUrl,
