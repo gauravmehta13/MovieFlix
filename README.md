@@ -9,11 +9,11 @@ This app is not meant for commercial or Public Use. Use it at your own risk.
 
 This is the first screen of the app where we have different sections for different category of movies.
 
-![Dashboard Screen](https://raw.githubusercontent.com/gauravmehta13/MovieFlix/master/dashboard-screen.png)
+![Dashboard Screen](https://github.com/gauravmehta13/MovieFlix/blob/master/dashboard-screen.png)
 
 ## Movie Details Screen
 
 This is the movie details screen where user can get more details about the movie.
 
-![Movie Details Screen](https://raw.githubusercontent.com/gauravmehta13/MovieFlix/master/movie-details-screen.png)
+![Movie Details Screen](https://github.com/gauravmehta13/MovieFlix/blob/master/movie-details-screen.png)
 
