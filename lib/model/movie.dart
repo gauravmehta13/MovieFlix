@@ -141,7 +141,7 @@ final topRatedMovieList = [
       duration: '169 min',
       trailer: 'https://www.youtube.com/watch?v=zSWdZVtXT7E',
       movie:
-          'https://td.klprojects.tech/0:/Interstellar%20(2014)%20(2014)%20[1080p]/Interstellar.2014.2014.1080p.BluRay.x264.YIFY.mp4?a=view'),
+          'https://td.klprojects.tech/0:/Interstellar%20(2014)%20(2014)%20[1080p]/Interstellar.2014.2014.1080p.BluRay.x264.YIFY.mp4'),
   Movie(
       id: 'tt4633694',
       title: 'Spider-Man: Into the Spider-Verse',

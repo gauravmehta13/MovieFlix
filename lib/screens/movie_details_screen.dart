@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mx_player_plugin/mx_player_plugin.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class MovieDetailsScreen extends StatelessWidget {
@@ -198,7 +199,10 @@ class MovieDetailsScreen extends StatelessWidget {
                 top: 20,
                 bottom: 20,
               ),
-              onPressed: () => launch(movie),
+              onPressed: () async {
+                await PlayerPlugin.openWithMxPlayer(movie, '');
+                //await PlayerPlugin.openWithVlcPlayer(movie);
+              },
               color: Colors.yellowAccent,
               textColor: Colors.black,
               child: Row(
