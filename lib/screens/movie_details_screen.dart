@@ -170,21 +170,21 @@ class MovieDetailsScreen extends StatelessWidget {
                 top: 20,
                 bottom: 20,
               ),
-              onPressed: () => launch(trailer),
+              onPressed: () => launch(movie),
               color: Theme.of(context).primaryColor,
               textColor: Colors.white,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Icon(
-                    Icons.play_circle_outline,
+                    Icons.cloud_download,
                   ),
                   Container(
                     height: 5,
                     width: 5,
                   ),
                   Text(
-                    'Watch Trailer',
+                    'Download',
                     style: TextStyle(
                       fontSize: 18,
                     ),
@@ -216,7 +216,7 @@ class MovieDetailsScreen extends StatelessWidget {
                     width: 5,
                   ),
                   Text(
-                    'Watch Movie',
+                    'Watch Online',
                     style: TextStyle(
                       fontSize: 18,
                     ),
