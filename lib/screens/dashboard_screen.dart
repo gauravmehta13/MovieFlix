@@ -37,13 +37,13 @@ class _DashboardScreenState extends State<DashboardScreen> {
     //Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('MovieFlix'),
+        title: Center(child: Text('MovieFlix', style: TextStyle(fontWeight: FontWeight.bold,fontStyle: FontStyle.italic),)),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.error),
             onPressed: () {
               Fluttertoast.showToast(
-                msg: "Report to Gaurav if anything needs to be fixed",
+                msg: "Report to Movieflix Team if anything needs to be fixed",
                 backgroundColor: Colors.blue,
                 toastLength: Toast.LENGTH_SHORT,
                 gravity: ToastGravity.CENTER,
