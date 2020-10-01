@@ -9,11 +9,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Movie flix',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.indigo,
-        scaffoldBackgroundColor: Colors.white,
+        brightness: Brightness.dark,
+        primarySwatch: Colors.red,
+        scaffoldBackgroundColor: Colors.black87,
       ),
       home: DashboardScreen(),
       routes: {
